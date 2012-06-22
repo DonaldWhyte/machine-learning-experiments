@@ -1,0 +1,1728 @@
+# depslib dependency file v1.0
+1340352784 source:c:\users\donald whtye\desktop\machinelearningexperiments\machinelearningexperiments.cpp
+	"IrisSupervisedLearning.h"
+
+1340353045 c:\users\donald whtye\desktop\machinelearningexperiments\irissupervisedlearning.h
+	<fstream>
+	<iostream>
+	<sstream>
+	<vector>
+	<map>
+	<dlib/svm.h>
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm.h
+	"svm/svm.h"
+	"svm/krls.h"
+	"svm/rls.h"
+	"svm/kcentroid.h"
+	"svm/kcentroid_overloads.h"
+	"svm/kkmeans.h"
+	"svm/feature_ranking.h"
+	"svm/rbf_network.h"
+	"svm/linearly_independent_subset_finder.h"
+	"svm/reduced.h"
+	"svm/rvm.h"
+	"svm/pegasos.h"
+	"svm/sparse_kernel.h"
+	"svm/null_trainer.h"
+	"svm/roc_trainer.h"
+	"svm/kernel_matrix.h"
+	"svm/empirical_kernel_map.h"
+	"svm/svm_c_linear_trainer.h"
+	"svm/svm_c_ekm_trainer.h"
+	"svm/simplify_linear_decision_function.h"
+	"svm/krr_trainer.h"
+	"svm/sort_basis_vectors.h"
+	"svm/svm_c_trainer.h"
+	"svm/svm_one_class_trainer.h"
+	"svm/svr_trainer.h"
+	"svm/one_vs_one_decision_function.h"
+	"svm/one_vs_one_trainer.h"
+	"svm/multiclass_tools.h"
+	"svm/cross_validate_multiclass_trainer.h"
+	"svm/cross_validate_regression_trainer.h"
+	"svm/cross_validate_object_detection_trainer.h"
+	"svm/cross_validate_sequence_labeler.h"
+	"svm/cross_validate_assignment_trainer.h"
+	"svm/one_vs_all_decision_function.h"
+	"svm/one_vs_all_trainer.h"
+	"svm/structural_svm_problem.h"
+	"svm/svm_multiclass_linear_trainer.h"
+	"svm/sequence_labeler.h"
+	"svm/assignment_function.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\svm.h
+	"svm_abstract.h"
+	<cmath>
+	<limits>
+	<sstream>
+	"../matrix.h"
+	"../algs.h"
+	"../serialize.h"
+	"../rand.h"
+	"../std_allocator.h"
+	"function.h"
+	"kernel.h"
+	"../enable_if.h"
+	"../optimization.h"
+	"svm_nu_trainer.h"
+	<vector>
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\svm_abstract.h
+	<cmath>
+	<limits>
+	<sstream>
+	"../matrix/matrix_abstract.h"
+	"../algs.h"
+	"../serialize.h"
+	"function_abstract.h"
+	"kernel_abstract.h"
+	"svm_nu_trainer_abstract.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\matrix\matrix_abstract.h
+	"matrix_exp_abstract.h"
+	"../serialize.h"
+	"../algs.h"
+	"matrix_data_layout_abstract.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\matrix\matrix_exp_abstract.h
+	"matrix_fwd.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\matrix\matrix_fwd.h
+	"../algs.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\algs.h
+	<string>
+	"platform.h"
+	"windows_magic.h"
+	<algorithm>
+	<new>
+	<cstdlib>
+	"assert.h"
+	"error.h"
+	"noncopyable.h"
+	"enable_if.h"
+	"uintn.h"
+	"memory_manager_stateless/memory_manager_stateless_kernel_1.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\platform.h
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\windows_magic.h
+	"platform.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\assert.h
+	<sstream>
+	<iosfwd>
+	"error.h"
+	"stack_trace.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\error.h
+	<string>
+	<new>
+	<iostream>
+	<cassert>
+	<cstdlib>
+	<exception>
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\stack_trace.h
+	<iostream>
+	<dlib/stack_trace.h>
+	<string>
+	"assert.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\noncopyable.h
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\enable_if.h
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\uintn.h
+	"assert.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\memory_manager_stateless\memory_manager_stateless_kernel_1.h
+	"memory_manager_stateless_kernel_abstract.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\memory_manager_stateless\memory_manager_stateless_kernel_abstract.h
+	"../algs.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\serialize.h
+	"algs.h"
+	"assert.h"
+	<iomanip>
+	<cstddef>
+	<iostream>
+	<string>
+	<vector>
+	<complex>
+	<map>
+	<limits>
+	"uintn.h"
+	"interfaces/enumerable.h"
+	"interfaces/map_pair.h"
+	"enable_if.h"
+	"unicode.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\interfaces\enumerable.h
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\interfaces\map_pair.h
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\unicode.h
+	"unicode/unicode.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\unicode\unicode.h
+	"../uintn.h"
+	"../algs.h"
+	"unicode_abstract.h"
+	<string>
+	<cstring>
+	<fstream>
+	"unicode.cpp"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\unicode\unicode_abstract.h
+	"../uintn.h"
+	"../error.h"
+	<string>
+	<fstream>
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\unicode\unicode.cpp
+	"unicode.h"
+	<cwchar>
+	"../string.h"
+	<vector>
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\string.h
+	"string/string.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\string\string.h
+	"string_abstract.h"
+	<sstream>
+	"../algs.h"
+	<string>
+	<iostream>
+	<iomanip>
+	"../error.h"
+	"../assert.h"
+	"../uintn.h"
+	<cctype>
+	<algorithm>
+	<vector>
+	"../enable_if.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\string\string_abstract.h
+	<string>
+	<iostream>
+	<vector>
+	"../error.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\matrix\matrix_data_layout_abstract.h
+	"../algs.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\function_abstract.h
+	<cmath>
+	<limits>
+	<sstream>
+	"../matrix/matrix_abstract.h"
+	"../algs.h"
+	"../serialize.h"
+	"../statistics/statistics_abstract.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\statistics\statistics_abstract.h
+	<limits>
+	<cmath>
+	"../matrix/matrix_abstract.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\kernel_abstract.h
+	<cmath>
+	<limits>
+	<sstream>
+	"../matrix/matrix_abstract.h"
+	"../algs.h"
+	"../serialize.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\svm_nu_trainer_abstract.h
+	<cmath>
+	<limits>
+	<sstream>
+	"../matrix/matrix_abstract.h"
+	"../algs.h"
+	"../serialize.h"
+	"function_abstract.h"
+	"kernel_abstract.h"
+	"../optimization/optimization_solve_qp2_using_smo_abstract.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\optimization\optimization_solve_qp2_using_smo_abstract.h
+	"../matrix/matrix_abstract.h"
+	"../algs.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\matrix.h
+	"matrix/matrix.h"
+	"matrix/matrix_utilities.h"
+	"matrix/matrix_subexp.h"
+	"matrix/matrix_math_functions.h"
+	"matrix/matrix_assign.h"
+	"matrix/matrix_la.h"
+	"matrix/symmetric_matrix_cache.h"
+	"matrix/matrix_conv.h"
+	"matrix/matrix_blas_bindings.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\matrix\matrix.h
+	"matrix_exp.h"
+	"matrix_abstract.h"
+	"../algs.h"
+	"../serialize.h"
+	"../enable_if.h"
+	<sstream>
+	<algorithm>
+	"../memory_manager.h"
+	"../is_kind.h"
+	"matrix_data_layout.h"
+	"matrix_assign_fwd.h"
+	"matrix_op.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\matrix\matrix_exp.h
+	"../algs.h"
+	"../is_kind.h"
+	"matrix_fwd.h"
+	"matrix_exp_abstract.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\is_kind.h
+	<vector>
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\memory_manager.h
+	"memory_manager/memory_manager_kernel_1.h"
+	"memory_manager/memory_manager_kernel_2.h"
+	"memory_manager/memory_manager_kernel_3.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\memory_manager\memory_manager_kernel_1.h
+	"../algs.h"
+	"memory_manager_kernel_abstract.h"
+	"../assert.h"
+	<new>
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\memory_manager\memory_manager_kernel_abstract.h
+	"../algs.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\memory_manager\memory_manager_kernel_2.h
+	"../algs.h"
+	"memory_manager_kernel_abstract.h"
+	"../assert.h"
+	<new>
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\memory_manager\memory_manager_kernel_3.h
+	"../algs.h"
+	"memory_manager_kernel_abstract.h"
+	"../assert.h"
+	<new>
+	"memory_manager_kernel_2.h"
+	"../binary_search_tree/binary_search_tree_kernel_2.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\binary_search_tree\binary_search_tree_kernel_2.h
+	"binary_search_tree_kernel_abstract.h"
+	"../algs.h"
+	"../interfaces/map_pair.h"
+	"../interfaces/enumerable.h"
+	"../interfaces/remover.h"
+	"../serialize.h"
+	<functional>
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\binary_search_tree\binary_search_tree_kernel_abstract.h
+	"../interfaces/map_pair.h"
+	"../interfaces/enumerable.h"
+	"../interfaces/remover.h"
+	"../serialize.h"
+	"../algs.h"
+	<functional>
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\interfaces\remover.h
+	<functional>
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\matrix\matrix_data_layout.h
+	"../algs.h"
+	"matrix_fwd.h"
+	"matrix_data_layout_abstract.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\matrix\matrix_assign_fwd.h
+	"../enable_if.h"
+	"matrix_data_layout.h"
+	"../algs.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\matrix\matrix_op.h
+	"matrix_exp.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\matrix\matrix_utilities.h
+	"matrix_utilities_abstract.h"
+	"matrix.h"
+	<cmath>
+	<complex>
+	<limits>
+	"../pixel.h"
+	"../stl_checked.h"
+	<vector>
+	<algorithm>
+	"../std_allocator.h"
+	"matrix_expressions.h"
+	"matrix_math_functions.h"
+	"matrix_op.h"
+	"../general_hash/murmur_hash3.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\matrix\matrix_utilities_abstract.h
+	"matrix_abstract.h"
+	<complex>
+	"../pixel.h"
+	"../geometry.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\pixel.h
+	<iostream>
+	"serialize.h"
+	<cmath>
+	"algs.h"
+	"uintn.h"
+	<limits>
+	"enable_if.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\geometry.h
+	"geometry/rectangle.h"
+	"geometry/vector.h"
+	"geometry/border_enumerator.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\geometry\rectangle.h
+	"rectangle_abstract.h"
+	"../algs.h"
+	<algorithm>
+	<iostream>
+	"../serialize.h"
+	"vector.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\geometry\rectangle_abstract.h
+	"vector_abstract.h"
+	<iostream>
+	"../serialize.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\geometry\vector_abstract.h
+	"../serialize.h"
+	<functional>
+	<iostream>
+	"../matrix/matrix_abstract.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\geometry\vector.h
+	<cmath>
+	"vector_abstract.h"
+	"../algs.h"
+	"../serialize.h"
+	<functional>
+	<iostream>
+	"../matrix/matrix.h"
+	<limits>
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\geometry\border_enumerator.h
+	"border_enumerator_abstract.h"
+	"rectangle.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\geometry\border_enumerator_abstract.h
+	"rectangle_abstract.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\stl_checked.h
+	"stl_checked/std_vector_c.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\stl_checked\std_vector_c.h
+	<vector>
+	<algorithm>
+	"../assert.h"
+	"std_vector_c_abstract.h"
+	"../serialize.h"
+	"../is_kind.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\stl_checked\std_vector_c_abstract.h
+	<vector>
+	<algorithm>
+	"../assert.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\std_allocator.h
+	<limits>
+	<memory>
+	"enable_if.h"
+	"algs.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\matrix\matrix_expressions.h
+	"matrix_fwd.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\matrix\matrix_math_functions.h
+	"matrix_math_functions_abstract.h"
+	"matrix_op.h"
+	"matrix_utilities.h"
+	"matrix.h"
+	"../algs.h"
+	<cmath>
+	<complex>
+	<limits>
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\matrix\matrix_math_functions_abstract.h
+	"matrix_abstract.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\general_hash\murmur_hash3.h
+	"murmur_hash3_abstract.h"
+	"../uintn.h"
+	<utility>
+	<stdlib.h>
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\general_hash\murmur_hash3_abstract.h
+	"../uintn.h"
+	<utility>
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\matrix\matrix_subexp.h
+	"matrix_subexp_abstract.h"
+	"matrix_op.h"
+	"matrix.h"
+	"../geometry/rectangle.h"
+	"matrix_expressions.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\matrix\matrix_subexp_abstract.h
+	"matrix_abstract.h"
+	"../geometry.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\matrix\matrix_assign.h
+	"../geometry.h"
+	"matrix.h"
+	"matrix_utilities.h"
+	"matrix_subexp.h"
+	"../enable_if.h"
+	"matrix_assign_fwd.h"
+	"matrix_default_mul.h"
+	"matrix_conj_trans.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\matrix\matrix_default_mul.h
+	"../geometry.h"
+	"matrix.h"
+	"matrix_utilities.h"
+	"../enable_if.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\matrix\matrix_conj_trans.h
+	"matrix_utilities.h"
+	"matrix_math_functions.h"
+	"matrix.h"
+	"../algs.h"
+	<cmath>
+	<complex>
+	<limits>
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\matrix\matrix_la.h
+	"matrix_la_abstract.h"
+	"matrix_utilities.h"
+	"matrix_lu.h"
+	"matrix_qr.h"
+	"matrix_cholesky.h"
+	"matrix_eigenvalue.h"
+	"lapack/potrf.h"
+	"lapack/gesdd.h"
+	"lapack/gesvd.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\matrix\matrix_la_abstract.h
+	"matrix_abstract.h"
+	<complex>
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\matrix\matrix_lu.h
+	"matrix.h"
+	"matrix_utilities.h"
+	"matrix_subexp.h"
+	"matrix_trsm.h"
+	<algorithm>
+	"lapack/getrf.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\matrix\matrix_trsm.h
+	"lapack/fortran_id.h"
+	"cblas_constants.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\matrix\lapack\fortran_id.h
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\matrix\cblas_constants.h
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\matrix\lapack\getrf.h
+	"fortran_id.h"
+	"../matrix.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\matrix\matrix_qr.h
+	"matrix.h"
+	"matrix_utilities.h"
+	"matrix_subexp.h"
+	"lapack/geqrf.h"
+	"lapack/ormqr.h"
+	"matrix_trsm.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\matrix\lapack\geqrf.h
+	"fortran_id.h"
+	"../matrix.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\matrix\lapack\ormqr.h
+	"fortran_id.h"
+	"../matrix.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\matrix\matrix_cholesky.h
+	"matrix.h"
+	"matrix_utilities.h"
+	"matrix_subexp.h"
+	<cmath>
+	"lapack/potrf.h"
+	"matrix_trsm.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\matrix\lapack\potrf.h
+	"fortran_id.h"
+	"../matrix.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\matrix\matrix_eigenvalue.h
+	"matrix.h"
+	"matrix_utilities.h"
+	"matrix_subexp.h"
+	<algorithm>
+	<complex>
+	<cmath>
+	"lapack/geev.h"
+	"lapack/syev.h"
+	"lapack/syevr.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\matrix\lapack\geev.h
+	"fortran_id.h"
+	"../matrix.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\matrix\lapack\syev.h
+	"fortran_id.h"
+	"../matrix.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\matrix\lapack\syevr.h
+	"fortran_id.h"
+	"../matrix.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\matrix\lapack\gesdd.h
+	"fortran_id.h"
+	"../matrix.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\matrix\lapack\gesvd.h
+	"fortran_id.h"
+	"../matrix.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\matrix\symmetric_matrix_cache.h
+	"symmetric_matrix_cache_abstract.h"
+	<vector>
+	"../matrix.h"
+	"../algs.h"
+	"../array.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\matrix\symmetric_matrix_cache_abstract.h
+	"matrix_abstract.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\array.h
+	"array/array_kernel.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\array\array_kernel.h
+	"array_kernel_abstract.h"
+	"../interfaces/enumerable.h"
+	"../algs.h"
+	"../serialize.h"
+	"../sort.h"
+	"../is_kind.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\array\array_kernel_abstract.h
+	"../interfaces/enumerable.h"
+	"../serialize.h"
+	"../algs.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\sort.h
+	"algs.h"
+	<functional>
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\matrix\matrix_conv.h
+	"matrix_conv_abstract.h"
+	"matrix.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\matrix\matrix_conv_abstract.h
+	"matrix_abstract.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\matrix\matrix_blas_bindings.h
+	"matrix_assign.h"
+	"matrix_conj_trans.h"
+	"cblas_constants.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\rand.h
+	"rand/rand_kernel_1.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\rand\rand_kernel_1.h
+	<string>
+	"../algs.h"
+	"rand_kernel_abstract.h"
+	"mersenne_twister.h"
+	"../is_kind.h"
+	<iostream>
+	"../serialize.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\rand\rand_kernel_abstract.h
+	<string>
+	"../uintn.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\rand\mersenne_twister.h
+	<iostream>
+	<algorithm>
+	<stdexcept>
+	"../uintn.h"
+	"../serialize.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\function.h
+	"function_abstract.h"
+	<cmath>
+	<limits>
+	<sstream>
+	"../matrix.h"
+	"../algs.h"
+	"../serialize.h"
+	"../rand.h"
+	"../statistics.h"
+	"kernel_matrix.h"
+	"kernel.h"
+	"sparse_kernel.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\statistics.h
+	"statistics/statistics.h"
+	"statistics/dpca.h"
+	"statistics/random_subset_selector.h"
+	"statistics/image_feature_sampling.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\statistics\statistics.h
+	"statistics_abstract.h"
+	<limits>
+	<cmath>
+	"../algs.h"
+	"../matrix.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\statistics\dpca.h
+	"dpca_abstract.h"
+	<limits>
+	<cmath>
+	"../algs.h"
+	"../matrix.h"
+	<iostream>
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\statistics\dpca_abstract.h
+	<limits>
+	<cmath>
+	"../matrix/matrix_abstract.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\statistics\random_subset_selector.h
+	"random_subset_selector_abstract.h"
+	"../rand.h"
+	<vector>
+	"../algs.h"
+	"../string.h"
+	"../serialize.h"
+	<iostream>
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\statistics\random_subset_selector_abstract.h
+	<vector>
+	"../rand/rand_kernel_abstract.h"
+	"../algs.h"
+	"../string.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\statistics\image_feature_sampling.h
+	"image_feature_sampling_abstract.h"
+	"../statistics.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\statistics\image_feature_sampling_abstract.h
+	"random_subset_selector_abstract.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\kernel_matrix.h
+	<vector>
+	"kernel_matrix_abstract.h"
+	"../matrix.h"
+	"../algs.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\kernel_matrix_abstract.h
+	<vector>
+	"kernel_abstract.h"
+	"../matrix/matrix_abstract.h"
+	"../algs.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\kernel.h
+	"kernel_abstract.h"
+	<cmath>
+	<limits>
+	<sstream>
+	"../matrix.h"
+	"../algs.h"
+	"../serialize.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\sparse_kernel.h
+	"sparse_kernel_abstract.h"
+	<cmath>
+	<limits>
+	"../algs.h"
+	"../serialize.h"
+	"sparse_vector.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\sparse_kernel_abstract.h
+	<cmath>
+	<limits>
+	"../algs.h"
+	"../serialize.h"
+	"kernel_abstract.h"
+	"sparse_vector_abstract.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\sparse_vector_abstract.h
+	<cmath>
+	"../algs.h"
+	"../serialize.h"
+	"../matrix.h"
+	<map>
+	<vector>
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\sparse_vector.h
+	"sparse_vector_abstract.h"
+	<cmath>
+	<limits>
+	"../algs.h"
+	<vector>
+	<map>
+	"../manifold_regularization/sample_pair.h"
+	"../matrix.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\manifold_regularization\sample_pair.h
+	"sample_pair_abstract.h"
+	<limits>
+	"../serialize.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\manifold_regularization\sample_pair_abstract.h
+	<limits>
+	"../serialize.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\optimization.h
+	"optimization/optimization.h"
+	"optimization/optimization_bobyqa.h"
+	"optimization/optimization_solve_qp_using_smo.h"
+	"optimization/optimization_solve_qp2_using_smo.h"
+	"optimization/optimization_solve_qp3_using_smo.h"
+	"optimization/optimization_oca.h"
+	"optimization/optimization_trust_region.h"
+	"optimization/optimization_least_squares.h"
+	"optimization/max_cost_assignment.h"
+	"optimization/max_sum_submatrix.h"
+	"optimization/find_max_factor_graph_nmplp.h"
+	"optimization/find_max_factor_graph_viterbi.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\optimization\optimization.h
+	<cmath>
+	<limits>
+	"optimization_abstract.h"
+	"optimization_search_strategies.h"
+	"optimization_stop_strategies.h"
+	"optimization_line_search.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\optimization\optimization_abstract.h
+	<cmath>
+	<limits>
+	"../matrix/matrix_abstract.h"
+	"../algs.h"
+	"optimization_search_strategies_abstract.h"
+	"optimization_stop_strategies_abstract.h"
+	"optimization_line_search_abstract.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\optimization\optimization_search_strategies_abstract.h
+	<cmath>
+	<limits>
+	"../matrix/matrix_abstract.h"
+	"../algs.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\optimization\optimization_stop_strategies_abstract.h
+	<cmath>
+	<limits>
+	"../matrix/matrix_abstract.h"
+	"../algs.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\optimization\optimization_line_search_abstract.h
+	<cmath>
+	<limits>
+	"../matrix/matrix_abstract.h"
+	"../algs.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\optimization\optimization_search_strategies.h
+	<cmath>
+	<limits>
+	"../matrix.h"
+	"../algs.h"
+	"optimization_search_strategies_abstract.h"
+	"../sequence.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\sequence.h
+	"sequence/sequence_kernel_1.h"
+	"sequence/sequence_kernel_2.h"
+	"sequence/sequence_kernel_c.h"
+	"sequence/sequence_compare_1.h"
+	"sequence/sequence_sort_1.h"
+	"sequence/sequence_sort_2.h"
+	"algs.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\sequence\sequence_kernel_1.h
+	"sequence_kernel_abstract.h"
+	"../algs.h"
+	"../interfaces/enumerable.h"
+	"../interfaces/remover.h"
+	"../serialize.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\sequence\sequence_kernel_abstract.h
+	"../interfaces/enumerable.h"
+	"../interfaces/remover.h"
+	"../serialize.h"
+	"../algs.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\sequence\sequence_kernel_2.h
+	"sequence_kernel_abstract.h"
+	"../algs.h"
+	"../interfaces/enumerable.h"
+	"../interfaces/remover.h"
+	"../serialize.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\sequence\sequence_kernel_c.h
+	"sequence_kernel_abstract.h"
+	"../algs.h"
+	"../assert.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\sequence\sequence_compare_1.h
+	"sequence_compare_abstract.h"
+	"../algs.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\sequence\sequence_compare_abstract.h
+	"sequence_kernel_abstract.h"
+	"../algs.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\sequence\sequence_sort_1.h
+	"sequence_sort_abstract.h"
+	"../algs.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\sequence\sequence_sort_abstract.h
+	"sequence_kernel_abstract.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\sequence\sequence_sort_2.h
+	"sequence_sort_abstract.h"
+	"../algs.h"
+	"../sort.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\optimization\optimization_stop_strategies.h
+	<cmath>
+	<limits>
+	"../matrix.h"
+	"../algs.h"
+	"optimization_stop_strategies_abstract.h"
+	<iostream>
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\optimization\optimization_line_search.h
+	<cmath>
+	<limits>
+	"../matrix.h"
+	"../algs.h"
+	"optimization_line_search_abstract.h"
+	<utility>
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\optimization\optimization_bobyqa.h
+	<algorithm>
+	<cmath>
+	"../matrix.h"
+	"../smart_pointers.h"
+	"optimization_bobyqa_abstract.h"
+	"optimization.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\smart_pointers.h
+	"smart_pointers/scoped_ptr.h"
+	"smart_pointers/shared_ptr.h"
+	"smart_pointers/weak_ptr.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\smart_pointers\scoped_ptr.h
+	<algorithm>
+	"../noncopyable.h"
+	"../algs.h"
+	"scoped_ptr_abstract.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\smart_pointers\scoped_ptr_abstract.h
+	"../noncopyable.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\smart_pointers\shared_ptr.h
+	<algorithm>
+	<memory>
+	<typeinfo>
+	<string>
+	"../algs.h"
+	"shared_ptr_abstract.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\smart_pointers\shared_ptr_abstract.h
+	"weak_ptr_abstract.h"
+	<exception>
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\smart_pointers\weak_ptr_abstract.h
+	"shared_ptr_abstract.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\smart_pointers\weak_ptr.h
+	<algorithm>
+	<memory>
+	"shared_ptr.h"
+	"../algs.h"
+	"weak_ptr_abstract.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\optimization\optimization_bobyqa_abstract.h
+	"../matrix.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\optimization\optimization_solve_qp_using_smo.h
+	"optimization_solve_qp_using_smo_abstract.h"
+	"../matrix.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\optimization\optimization_solve_qp_using_smo_abstract.h
+	"../matrix.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\optimization\optimization_solve_qp2_using_smo.h
+	"optimization_solve_qp2_using_smo_abstract.h"
+	<cmath>
+	<limits>
+	<sstream>
+	"../matrix.h"
+	"../algs.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\optimization\optimization_solve_qp3_using_smo.h
+	"optimization_solve_qp3_using_smo_abstract.h"
+	<cmath>
+	<limits>
+	<sstream>
+	"../matrix.h"
+	"../algs.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\optimization\optimization_solve_qp3_using_smo_abstract.h
+	"../matrix/matrix_abstract.h"
+	"../algs.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\optimization\optimization_oca.h
+	"optimization_oca_abstract.h"
+	"../matrix.h"
+	"optimization_solve_qp_using_smo.h"
+	<vector>
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\optimization\optimization_oca_abstract.h
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\optimization\optimization_trust_region.h
+	"../matrix.h"
+	"optimization_trust_region_abstract.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\optimization\optimization_trust_region_abstract.h
+	"../matrix/matrix_abstract.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\optimization\optimization_least_squares.h
+	"../matrix.h"
+	"optimization_trust_region.h"
+	"optimization_least_squares_abstract.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\optimization\optimization_least_squares_abstract.h
+	"../matrix/matrix_abstract.h"
+	"optimization_trust_region_abstract.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\optimization\max_cost_assignment.h
+	"max_cost_assignment_abstract.h"
+	"../matrix.h"
+	<vector>
+	<deque>
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\optimization\max_cost_assignment_abstract.h
+	"../matrix.h"
+	<vector>
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\optimization\max_sum_submatrix.h
+	"max_sum_submatrix_abstract.h"
+	"../matrix.h"
+	<vector>
+	<queue>
+	"../geometry.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\optimization\max_sum_submatrix_abstract.h
+	"../matrix.h"
+	<vector>
+	"../geometry.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\optimization\find_max_factor_graph_nmplp.h
+	"find_max_factor_graph_nmplp_abstract.h"
+	<vector>
+	<map>
+	"../matrix.h"
+	"../hash.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\optimization\find_max_factor_graph_nmplp_abstract.h
+	<vector>
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\hash.h
+	"general_hash/hash.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\general_hash\hash.h
+	"hash_abstract.h"
+	<vector>
+	<string>
+	<map>
+	"murmur_hash3.h"
+	"../algs.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\general_hash\hash_abstract.h
+	"murmur_hash3_abstract.h"
+	<vector>
+	<string>
+	<map>
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\optimization\find_max_factor_graph_viterbi.h
+	"find_max_factor_graph_viterbi_abstract.h"
+	<vector>
+	"../matrix.h"
+	"../array2d.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\optimization\find_max_factor_graph_viterbi_abstract.h
+	<vector>
+	"../matrix.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\array2d.h
+	"array2d/array2d_kernel.h"
+	"array2d/serialize_pixel_overloads.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\array2d\array2d_kernel.h
+	"array2d_kernel_abstract.h"
+	"../algs.h"
+	"../interfaces/enumerable.h"
+	"../serialize.h"
+	"../geometry/rectangle.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\array2d\array2d_kernel_abstract.h
+	"../interfaces/enumerable.h"
+	"../serialize.h"
+	"../algs.h"
+	"../geometry/rectangle_abstract.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\array2d\serialize_pixel_overloads.h
+	"array2d_kernel.h"
+	"../pixel.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\svm_nu_trainer.h
+	"svm_nu_trainer_abstract.h"
+	<cmath>
+	<limits>
+	<sstream>
+	"../matrix.h"
+	"../algs.h"
+	"../serialize.h"
+	"function.h"
+	"kernel.h"
+	"../optimization/optimization_solve_qp2_using_smo.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\krls.h
+	<vector>
+	"krls_abstract.h"
+	"../matrix.h"
+	"function.h"
+	"../std_allocator.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\krls_abstract.h
+	<cmath>
+	"../matrix/matrix_abstract.h"
+	"../algs.h"
+	"../serialize.h"
+	"kernel_abstract.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\rls.h
+	"rls_abstract.h"
+	"../matrix.h"
+	"function.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\rls_abstract.h
+	"../matrix/matrix_abstract.h"
+	"function_abstract.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\kcentroid.h
+	<vector>
+	"kcentroid_abstract.h"
+	"../matrix.h"
+	"function.h"
+	"../std_allocator.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\kcentroid_abstract.h
+	"../algs.h"
+	"../serialize.h"
+	"kernel_abstract.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\kcentroid_overloads.h
+	"kcentroid_abstract.h"
+	"sparse_kernel.h"
+	"sparse_vector.h"
+	<map>
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\kkmeans.h
+	<cmath>
+	"../matrix/matrix_abstract.h"
+	"../algs.h"
+	"../serialize.h"
+	"kernel_abstract.h"
+	"../array.h"
+	"kcentroid.h"
+	"kkmeans_abstract.h"
+	"../noncopyable.h"
+	"../smart_pointers.h"
+	<vector>
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\kkmeans_abstract.h
+	<cmath>
+	"../matrix/matrix_abstract.h"
+	"../algs.h"
+	"../serialize.h"
+	"kernel_abstract.h"
+	"kcentroid_abstract.h"
+	"../noncopyable.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\feature_ranking.h
+	<vector>
+	<limits>
+	"feature_ranking_abstract.h"
+	"kcentroid.h"
+	"../optimization.h"
+	"../statistics.h"
+	<iostream>
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\feature_ranking_abstract.h
+	<vector>
+	<limits>
+	"svm_abstract.h"
+	"kcentroid_abstract.h"
+	"../is_kind.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\rbf_network.h
+	"../matrix.h"
+	"rbf_network_abstract.h"
+	"kernel.h"
+	"linearly_independent_subset_finder.h"
+	"function.h"
+	"../algs.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\rbf_network_abstract.h
+	"../algs.h"
+	"function_abstract.h"
+	"kernel_abstract.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\linearly_independent_subset_finder.h
+	<vector>
+	"linearly_independent_subset_finder_abstract.h"
+	"../matrix.h"
+	"function.h"
+	"../std_allocator.h"
+	"../algs.h"
+	"../serialize.h"
+	"../is_kind.h"
+	"../string.h"
+	"../rand.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\linearly_independent_subset_finder_abstract.h
+	"../algs.h"
+	"../serialize.h"
+	"kernel_abstract.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\reduced.h
+	"reduced_abstract.h"
+	"../matrix.h"
+	"../algs.h"
+	"function.h"
+	"kernel.h"
+	"kcentroid.h"
+	"linearly_independent_subset_finder.h"
+	"../optimization.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\reduced_abstract.h
+	"../matrix.h"
+	"../algs.h"
+	"function_abstract.h"
+	"kernel_abstract.h"
+	"../optimization.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\rvm.h
+	"rvm_abstract.h"
+	<cmath>
+	<limits>
+	"../matrix.h"
+	"../algs.h"
+	"function.h"
+	"kernel.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\rvm_abstract.h
+	<cmath>
+	<limits>
+	"../matrix.h"
+	"../algs.h"
+	"function.h"
+	"kernel.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\pegasos.h
+	"pegasos_abstract.h"
+	<cmath>
+	"../algs.h"
+	"function.h"
+	"kernel.h"
+	"kcentroid.h"
+	<iostream>
+	"../smart_pointers.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\pegasos_abstract.h
+	<cmath>
+	"../algs.h"
+	"function_abstract.h"
+	"kernel_abstract.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\null_trainer.h
+	"null_trainer_abstract.h"
+	"../algs.h"
+	"function_abstract.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\null_trainer_abstract.h
+	"../algs.h"
+	"function_abstract.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\roc_trainer.h
+	"roc_trainer_abstract.h"
+	"../algs.h"
+	<limits>
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\roc_trainer_abstract.h
+	"../algs.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\empirical_kernel_map.h
+	"../matrix.h"
+	"empirical_kernel_map_abstract.h"
+	"linearly_independent_subset_finder.h"
+	<vector>
+	"../algs.h"
+	"kernel_matrix.h"
+	"function.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\empirical_kernel_map_abstract.h
+	<vector>
+	"../matrix.h"
+	"kernel_abstract.h"
+	"function_abstract.h"
+	"linearly_independent_subset_finder_abstract.h"
+	<vector>
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\svm_c_linear_trainer.h
+	"svm_c_linear_trainer_abstract.h"
+	"../algs.h"
+	"../optimization.h"
+	"../matrix.h"
+	"function.h"
+	"kernel.h"
+	<iostream>
+	<vector>
+	"sparse_vector.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\svm_c_linear_trainer_abstract.h
+	"../matrix/matrix_abstract.h"
+	"../algs.h"
+	"function_abstract.h"
+	"kernel_abstract.h"
+	"sparse_kernel_abstract.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\svm_c_ekm_trainer.h
+	"../algs.h"
+	"function.h"
+	"kernel.h"
+	"empirical_kernel_map.h"
+	"svm_c_linear_trainer.h"
+	"svm_c_ekm_trainer_abstract.h"
+	"../statistics.h"
+	"../rand.h"
+	<vector>
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\svm_c_ekm_trainer_abstract.h
+	"../algs.h"
+	"function_abstract.h"
+	"kernel_abstract.h"
+	"empirical_kernel_map_abstract.h"
+	"svm_c_linear_trainer_abstract.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\simplify_linear_decision_function.h
+	"simplify_linear_decision_function_abstract.h"
+	"../algs.h"
+	"function.h"
+	"sparse_kernel.h"
+	"kernel.h"
+	<map>
+	<vector>
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\simplify_linear_decision_function_abstract.h
+	"../algs.h"
+	"function_abstract.h"
+	"sparse_kernel_abstract.h"
+	"kernel_abstract.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\krr_trainer.h
+	"../algs.h"
+	"function.h"
+	"kernel.h"
+	"empirical_kernel_map.h"
+	"linearly_independent_subset_finder.h"
+	"../statistics.h"
+	"rr_trainer.h"
+	"krr_trainer_abstract.h"
+	<vector>
+	<iostream>
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\rr_trainer.h
+	"../algs.h"
+	"function.h"
+	"kernel.h"
+	"empirical_kernel_map.h"
+	"linearly_independent_subset_finder.h"
+	"../statistics.h"
+	"rr_trainer_abstract.h"
+	<vector>
+	<iostream>
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\rr_trainer_abstract.h
+	"../algs.h"
+	"function_abstract.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\krr_trainer_abstract.h
+	"../algs.h"
+	"function_abstract.h"
+	"kernel_abstract.h"
+	"empirical_kernel_map_abstract.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\sort_basis_vectors.h
+	<vector>
+	"sort_basis_vectors_abstract.h"
+	"../matrix.h"
+	"../statistics.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\sort_basis_vectors_abstract.h
+	<vector>
+	"../matrix.h"
+	"../statistics.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\svm_c_trainer.h
+	"svm_c_trainer_abstract.h"
+	<cmath>
+	<limits>
+	<sstream>
+	"../matrix.h"
+	"../algs.h"
+	"function.h"
+	"kernel.h"
+	"../optimization/optimization_solve_qp3_using_smo.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\svm_c_trainer_abstract.h
+	<cmath>
+	<limits>
+	<sstream>
+	"../matrix/matrix_abstract.h"
+	"../algs.h"
+	"function_abstract.h"
+	"kernel_abstract.h"
+	"../optimization/optimization_solve_qp3_using_smo_abstract.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\svm_one_class_trainer.h
+	"svm_one_class_trainer_abstract.h"
+	<cmath>
+	<limits>
+	<sstream>
+	"../matrix.h"
+	"../algs.h"
+	"function.h"
+	"kernel.h"
+	"../optimization/optimization_solve_qp3_using_smo.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\svm_one_class_trainer_abstract.h
+	<cmath>
+	<limits>
+	"../matrix/matrix_abstract.h"
+	"../algs.h"
+	"function_abstract.h"
+	"kernel_abstract.h"
+	"../optimization/optimization_solve_qp3_using_smo_abstract.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\svr_trainer.h
+	"svr_trainer_abstract.h"
+	<cmath>
+	<limits>
+	"../matrix.h"
+	"../algs.h"
+	"function.h"
+	"kernel.h"
+	"../optimization/optimization_solve_qp3_using_smo.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\svr_trainer_abstract.h
+	<cmath>
+	<limits>
+	"../matrix/matrix_abstract.h"
+	"../algs.h"
+	"function_abstract.h"
+	"kernel_abstract.h"
+	"../optimization/optimization_solve_qp3_using_smo_abstract.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\one_vs_one_decision_function.h
+	"one_vs_one_decision_function_abstract.h"
+	"../serialize.h"
+	"../type_safe_union.h"
+	<iostream>
+	<sstream>
+	<set>
+	<map>
+	"../any.h"
+	"../unordered_pair.h"
+	"null_df.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\one_vs_one_decision_function_abstract.h
+	"../serialize.h"
+	<map>
+	"../any/any_decision_function_abstract.h"
+	"../unordered_pair.h"
+	"one_vs_one_trainer_abstract.h"
+	"null_df.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\any\any_decision_function_abstract.h
+	"any_abstract.h"
+	"../algs.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\any\any_abstract.h
+	<typeinfo>
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\unordered_pair.h
+	"serialize.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\one_vs_one_trainer_abstract.h
+	"one_vs_one_decision_function_abstract.h"
+	<vector>
+	"../any/any_trainer_abstract.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\any\any_trainer_abstract.h
+	"any_abstract.h"
+	"../algs.h"
+	"any_decision_function_abstract.h"
+	<vector>
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\null_df.h
+	<iostream>
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\type_safe_union.h
+	"type_safe_union/type_safe_union_kernel.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\type_safe_union\type_safe_union_kernel.h
+	"type_safe_union_kernel_abstract.h"
+	"../algs.h"
+	"../noncopyable.h"
+	"../serialize.h"
+	<new>
+	<iostream>
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\type_safe_union\type_safe_union_kernel_abstract.h
+	"../algs.h"
+	"../noncopyable.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\any.h
+	"any/any.h"
+	"any/any_trainer.h"
+	"any/any_decision_function.h"
+	"any/any_function.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\any\any.h
+	"any_abstract.h"
+	"../smart_pointers.h"
+	<typeinfo>
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\any\any_trainer.h
+	"any.h"
+	"../smart_pointers.h"
+	"any_decision_function.h"
+	"any_trainer_abstract.h"
+	<vector>
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\any\any_decision_function.h
+	"any.h"
+	"../smart_pointers.h"
+	"any_decision_function_abstract.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\any\any_function.h
+	"any.h"
+	"../smart_pointers.h"
+	"any_function_abstract.h"
+	"any_function_impl2.h"
+	"any_function_impl2.h"
+	"any_function_impl2.h"
+	"any_function_impl2.h"
+	"any_function_impl2.h"
+	"any_function_impl2.h"
+	"any_function_impl2.h"
+	"any_function_impl2.h"
+	"any_function_impl2.h"
+	"any_function_impl2.h"
+	"any_function_impl2.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\any\any_function_abstract.h
+	"any_abstract.h"
+	"../algs.h"
+	<iostream>
+	<string>
+	"dlib/any.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\any\any_function_impl2.h
+	"any_function_impl.h"
+	"any_function_impl.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\any\any_function_impl.h
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\one_vs_one_trainer.h
+	"one_vs_one_trainer_abstract.h"
+	"one_vs_one_decision_function.h"
+	<vector>
+	"../unordered_pair.h"
+	"multiclass_tools.h"
+	<sstream>
+	<iostream>
+	"../any.h"
+	<map>
+	<set>
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\multiclass_tools.h
+	"multiclass_tools_abstract.h"
+	<vector>
+	<set>
+	"../unordered_pair.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\multiclass_tools_abstract.h
+	<vector>
+	<map>
+	"../unordered_pair.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\cross_validate_multiclass_trainer.h
+	<vector>
+	"../matrix.h"
+	"one_vs_one_trainer.h"
+	"cross_validate_multiclass_trainer_abstract.h"
+	<sstream>
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\cross_validate_multiclass_trainer_abstract.h
+	<vector>
+	"../matrix.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\cross_validate_regression_trainer.h
+	<vector>
+	"../matrix.h"
+	"../statistics.h"
+	"cross_validate_regression_trainer_abstract.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\cross_validate_regression_trainer_abstract.h
+	<vector>
+	"../matrix.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\cross_validate_object_detection_trainer.h
+	"cross_validate_object_detection_trainer_abstract.h"
+	<vector>
+	"../matrix.h"
+	"svm.h"
+	"../geometry.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\cross_validate_object_detection_trainer_abstract.h
+	<vector>
+	"../matrix.h"
+	"../geometry.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\cross_validate_sequence_labeler.h
+	"cross_validate_sequence_labeler_abstract.h"
+	<vector>
+	"../matrix.h"
+	"svm.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\cross_validate_sequence_labeler_abstract.h
+	<vector>
+	"../matrix.h"
+	"svm.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\cross_validate_assignment_trainer.h
+	"cross_validate_assignment_trainer_abstract.h"
+	<vector>
+	"../matrix.h"
+	"svm.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\cross_validate_assignment_trainer_abstract.h
+	<vector>
+	"../matrix.h"
+	"svm.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\one_vs_all_decision_function.h
+	"one_vs_all_decision_function_abstract.h"
+	"../serialize.h"
+	"../type_safe_union.h"
+	<sstream>
+	<map>
+	"../any.h"
+	"null_df.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\one_vs_all_decision_function_abstract.h
+	"../serialize.h"
+	<map>
+	"../any/any_decision_function_abstract.h"
+	"one_vs_all_trainer_abstract.h"
+	"null_df.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\one_vs_all_trainer_abstract.h
+	"one_vs_all_decision_function_abstract.h"
+	<vector>
+	"../any/any_trainer_abstract.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\one_vs_all_trainer.h
+	"one_vs_all_trainer_abstract.h"
+	"one_vs_all_decision_function.h"
+	<vector>
+	"multiclass_tools.h"
+	<sstream>
+	<iostream>
+	"../any.h"
+	<map>
+	<set>
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\structural_svm_problem.h
+	"structural_svm_problem_abstract.h"
+	"../algs.h"
+	<vector>
+	"../optimization/optimization_oca.h"
+	"../matrix.h"
+	"sparse_vector.h"
+	<iostream>
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\structural_svm_problem_abstract.h
+	"../optimization/optimization_oca_abstract.h"
+	"sparse_vector_abstract.h"
+	"../matrix.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\svm_multiclass_linear_trainer.h
+	"svm_multiclass_linear_trainer_abstract.h"
+	"structural_svm_problem.h"
+	<vector>
+	"../optimization/optimization_oca.h"
+	"../matrix.h"
+	"sparse_vector.h"
+	"function.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\svm_multiclass_linear_trainer_abstract.h
+	"../matrix/matrix_abstract.h"
+	"../algs.h"
+	"function_abstract.h"
+	"kernel_abstract.h"
+	"sparse_kernel_abstract.h"
+	"../optimization/optimization_oca_abstract.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\sequence_labeler.h
+	"sequence_labeler_abstract.h"
+	"../matrix.h"
+	<vector>
+	"../optimization/find_max_factor_graph_viterbi.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\sequence_labeler_abstract.h
+	"../matrix.h"
+	<vector>
+	"../optimization/find_max_factor_graph_viterbi_abstract.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\assignment_function.h
+	"assignment_function_abstract.h"
+	"../matrix.h"
+	<vector>
+	"../optimization/max_cost_assignment.h"
+
+1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\assignment_function_abstract.h
+	<vector>
+	"../optimization/max_cost_assignment_abstract.h"
+
