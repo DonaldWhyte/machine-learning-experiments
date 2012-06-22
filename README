@@ -1,0 +1,4 @@
+To build this project you need the following dependencies:
+    * dlib - The project doesn't use any features in dlib that
+             requires it to be build, so all you need to do is
+             add the dlib folder to your include path.
