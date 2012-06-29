@@ -34,9 +34,16 @@
 			<Add option="-fexceptions" />
 			<Add directory="C:\Users\Donald Whtye\Desktop\dlib-17.47" />
 		</Compiler>
+		<Linker>
+			<Add directory="C:\Program Files\libshark-i386 2.3.4\lib" />
+		</Linker>
+		<Unit filename="CSVLoader.cpp" />
+		<Unit filename="CSVLoader.h" />
 		<Unit filename="IrisSupervisedLearning.cpp" />
 		<Unit filename="IrisSupervisedLearning.h" />
+		<Unit filename="LICENSE" />
 		<Unit filename="MachineLearningExperiments.cpp" />
+		<Unit filename="README" />
 		<Unit filename="Util.h" />
 		<Extensions>
 			<code_completion />

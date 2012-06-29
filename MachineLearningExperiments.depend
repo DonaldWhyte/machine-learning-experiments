@@ -2,13 +2,12 @@
 1340352784 source:c:\users\donald whtye\desktop\machinelearningexperiments\machinelearningexperiments.cpp
 	"IrisSupervisedLearning.h"
 
-1340353045 c:\users\donald whtye\desktop\machinelearningexperiments\irissupervisedlearning.h
-	<fstream>
-	<iostream>
+1340630850 c:\users\donald whtye\desktop\machinelearningexperiments\irissupervisedlearning.h
 	<sstream>
 	<vector>
 	<map>
 	<dlib/svm.h>
+	"CSVLoader.h"
 
 1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm.h
 	"svm/svm.h"
@@ -1725,4 +1724,49 @@
 1339784094 c:\users\donald whtye\desktop\dlib-17.47\dlib\svm\assignment_function_abstract.h
 	<vector>
 	"../optimization/max_cost_assignment_abstract.h"
+
+1340630821 source:c:\users\donald whtye\desktop\machinelearningexperiments\irissupervisedlearning.cpp
+	"IrisSupervisedLearning.h"
+	"Util.h"
+
+1340285113 c:\users\donald whtye\desktop\machinelearningexperiments\util.h
+
+1340699452 source:c:\users\donald whtye\desktop\machinelearningexperiments\shellcodeclassifier.cpp
+	"ShellcodeClassifier.h"
+	"CSVLoader.h"
+	"Util.h"
+
+1340699445 c:\users\donald whtye\desktop\machinelearningexperiments\shellcodeclassifier.h
+	<Array/Array.h>
+	<ReClam/Dataset.h>
+	<vector>
+
+1231848318 c:\program files\libshark-i386 2.3.4\include\array\array.h
+	<SharkDefs.h>
+	<algorithm>
+	<vector>
+	<typeinfo>
+
+1299084746 c:\program files\libshark-i386 2.3.4\include\sharkdefs.h
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	<sstream>
+	<fstream>
+	<string.h>
+	<math.h>
+	<values.h>
+	<float.h>
+	<limits>
+
+1296121400 c:\program files\libshark-i386 2.3.4\include\reclam\dataset.h
+	<Array/Array.h>
+
+1340630774 c:\users\donald whtye\desktop\machinelearningexperiments\csvloader.h
+	<vector>
+
+1340630856 source:c:\users\donald whtye\desktop\machinelearningexperiments\csvloader.cpp
+	<fstream>
+	<iostream>
+	"CSVLoader.h"
 

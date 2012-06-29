@@ -1,3 +1,7 @@
+# Specific Files #
+##################
+data/shellcode.data
+
 # Compiled source #
 ###################
 *.com
