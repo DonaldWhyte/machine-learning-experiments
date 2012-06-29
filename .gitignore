@@ -1,6 +1,6 @@
 # Specific Files #
 ##################
-data/shellcode.data
+*dataset/
 
 # Compiled source #
 ###################
@@ -10,6 +10,7 @@ data/shellcode.data
 *.exe
 *.o
 *.so
+*.pyc
 
 # Packages #
 ############

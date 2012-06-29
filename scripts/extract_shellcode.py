@@ -56,7 +56,7 @@ def disassemble_shellcode(executable_path):
     """Disassembles the shellcode from the executable at 'executable_path' and
     returns an array of bytes representing the shellcode."""
     # Perform the initial disassembly
-    os.system("objdump -d {} > {}".format(executable_path, TEMPORARY_FILENAME))
+    os.system("objdump -d \"{}\" > \"{}\"".format(executable_path, TEMPORARY_FILENAME))
 
     # Searches through each line of the disassembled code, extracting the
     # raw memory values, converting them to bytes and storing them in a bytearray
