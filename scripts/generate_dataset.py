@@ -31,7 +31,8 @@ MIN_RANDOM_BINARY_SIZE = 256000 # 250 KB
 MAX_RANDOM_NINARY_SIZE = 512000 # 500 KB
 
 def parse_commandline_arguments():
-    """Parses the command line arguments and returns"""
+    """Parses the command line arguments and returns a dictionary containing
+    the arguments' values."""
     args = {}
     # Parsing mandatory arguments
     try:

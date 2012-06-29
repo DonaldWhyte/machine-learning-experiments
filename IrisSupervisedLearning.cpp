@@ -187,7 +187,7 @@ void RunIrisSupervisedLearning()
 
 
     // NOTE: This should just print out 1 for our training method
-    std::cout << "The number of support std::vectors in our learned function is "
+    std::cout << "The number of support vectors in our learned function is "
         << learnedFunction.basis_vectors.nr() << std::endl;
 
     double accuracy = CalculateAccuracy(learnedFunction, testSamples, testLabels);

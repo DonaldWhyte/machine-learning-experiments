@@ -1,9 +1,9 @@
 # depslib dependency file v1.0
-1340352784 source:c:\users\donald whtye\desktop\machinelearningexperiments\machinelearningexperiments.cpp
+1340988704 source:c:\users\donald whtye\desktop\machinelearningexperiments\machinelearningexperiments.cpp
 	"IrisSupervisedLearning.h"
+	"Util.h"
 
-1340630850 c:\users\donald whtye\desktop\machinelearningexperiments\irissupervisedlearning.h
-	<sstream>
+1340987782 c:\users\donald whtye\desktop\machinelearningexperiments\irissupervisedlearning.h
 	<vector>
 	<map>
 	<dlib/svm.h>
@@ -1725,11 +1725,13 @@
 	<vector>
 	"../optimization/max_cost_assignment_abstract.h"
 
-1340630821 source:c:\users\donald whtye\desktop\machinelearningexperiments\irissupervisedlearning.cpp
+1340988613 source:c:\users\donald whtye\desktop\machinelearningexperiments\irissupervisedlearning.cpp
 	"IrisSupervisedLearning.h"
 	"Util.h"
 
-1340285113 c:\users\donald whtye\desktop\machinelearningexperiments\util.h
+1340988344 c:\users\donald whtye\desktop\machinelearningexperiments\util.h
+	<vector>
+	<sstream>
 
 1340699452 source:c:\users\donald whtye\desktop\machinelearningexperiments\shellcodeclassifier.cpp
 	"ShellcodeClassifier.h"
@@ -1769,4 +1771,16 @@
 	<fstream>
 	<iostream>
 	"CSVLoader.h"
+
+1340988430 source:c:\users\donald whtye\desktop\machinelearningexperiments\util.cpp
+	<fstream>
+	"Util.h"
+
+1340991736 source:c:\users\donald whtye\desktop\machinelearningexperiments\shellcodefeatures.cpp
+	"ShellcodeFeatures.h"
+	<fstream>
+
+1340991711 c:\users\donald whtye\desktop\machinelearningexperiments\shellcodefeatures.h
+	<vector>
+	"Util.h"
 

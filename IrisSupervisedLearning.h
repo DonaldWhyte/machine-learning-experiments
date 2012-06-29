@@ -1,7 +1,6 @@
 #ifndef IRIS_SUPERVISED_H
 #define IRIS_SUPERVISED_H
 
-#include <sstream>
 #include <vector>
 #include <map>
 
