@@ -4,7 +4,9 @@
 # Date last modified: 29/06/12
 # Description:
 # Reads the directory containing a shellcode training/test dataset and combines
-# ALL of the data items (individual files) into a single file.
+# ALL of the data items (individual files) into a single file. The dataset
+# directory must have two directories - 'shellcode' and 'non-shellcode'.
+# Which directory a data item is in determines the class assigned to it.
 #-------------------------------------------------------------------------------
 
 import sys
