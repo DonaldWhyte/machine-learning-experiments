@@ -4,7 +4,8 @@
 #include <vector>
 #include <sstream>
 
-typedef std::vector<char> ByteArray;
+typedef unsigned char Byte; // TODO: maybe move this to "Types.h" or something like that
+typedef std::vector<Byte> ByteArray;
 
 /* Converts a string into any desired type, providing that the standard
  * library's stringstream class can perform the conversion.

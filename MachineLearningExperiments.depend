@@ -1,6 +1,7 @@
 # depslib dependency file v1.0
-1340988704 source:c:\users\donald whtye\desktop\machinelearningexperiments\machinelearningexperiments.cpp
+1341048801 source:c:\users\donald whtye\desktop\machinelearningexperiments\machinelearningexperiments.cpp
 	"IrisSupervisedLearning.h"
+	"ShellcodeFeatures.h"
 	"Util.h"
 
 1340987782 c:\users\donald whtye\desktop\machinelearningexperiments\irissupervisedlearning.h
@@ -1729,7 +1730,7 @@
 	"IrisSupervisedLearning.h"
 	"Util.h"
 
-1340988344 c:\users\donald whtye\desktop\machinelearningexperiments\util.h
+1341000941 c:\users\donald whtye\desktop\machinelearningexperiments\util.h
 	<vector>
 	<sstream>
 
@@ -1772,15 +1773,23 @@
 	<iostream>
 	"CSVLoader.h"
 
-1340988430 source:c:\users\donald whtye\desktop\machinelearningexperiments\util.cpp
+1341000607 source:c:\users\donald whtye\desktop\machinelearningexperiments\util.cpp
 	<fstream>
 	"Util.h"
 
-1340991736 source:c:\users\donald whtye\desktop\machinelearningexperiments\shellcodefeatures.cpp
+1341000592 source:c:\users\donald whtye\desktop\machinelearningexperiments\shellcodefeatures.cpp
 	"ShellcodeFeatures.h"
 	<fstream>
 
-1340991711 c:\users\donald whtye\desktop\machinelearningexperiments\shellcodefeatures.h
+1341046899 c:\users\donald whtye\desktop\machinelearningexperiments\shellcodefeatures.h
 	<vector>
+	"ByteFrequencyTable.h"
 	"Util.h"
+
+1341000920 c:\users\donald whtye\desktop\machinelearningexperiments\bytefrequencytable.h
+	"Util.h"
+
+1341000904 source:c:\users\donald whtye\desktop\machinelearningexperiments\bytefrequencytable.cpp
+	<string.h>
+	"ByteFrequencyTable.h"
 

@@ -37,6 +37,8 @@
 		<Linker>
 			<Add directory="C:\Program Files\libshark-i386 2.3.4\lib" />
 		</Linker>
+		<Unit filename="ByteFrequencyTable.cpp" />
+		<Unit filename="ByteFrequencyTable.h" />
 		<Unit filename="CSVLoader.cpp" />
 		<Unit filename="CSVLoader.h" />
 		<Unit filename="IrisSupervisedLearning.cpp" />
@@ -44,6 +46,9 @@
 		<Unit filename="LICENSE" />
 		<Unit filename="MachineLearningExperiments.cpp" />
 		<Unit filename="README" />
+		<Unit filename="ShellcodeFeatures.cpp" />
+		<Unit filename="ShellcodeFeatures.h" />
+		<Unit filename="Util.cpp" />
 		<Unit filename="Util.h" />
 		<Extensions>
 			<code_completion />

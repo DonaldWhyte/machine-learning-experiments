@@ -10,7 +10,7 @@ ByteArray ReadBinaryFile(const std::string& filename)
 
         // Now just read in ALL the data from the file at once
         ByteArray data(filesize);
-        file.read(&data[0], filesize);
+        file.read(reinterpret_cast<char*>(&data[0]), filesize);
         return data;
     }
     else
