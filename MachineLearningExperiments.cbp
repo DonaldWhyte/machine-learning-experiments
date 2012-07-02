@@ -41,13 +41,15 @@
 		<Unit filename="ByteFrequencyTable.h" />
 		<Unit filename="CSVLoader.cpp" />
 		<Unit filename="CSVLoader.h" />
+		<Unit filename="DatasetReader.cpp" />
+		<Unit filename="DatasetReader.h" />
+		<Unit filename="FrequencyTable.h" />
 		<Unit filename="IrisSupervisedLearning.cpp" />
 		<Unit filename="IrisSupervisedLearning.h" />
 		<Unit filename="LICENSE" />
 		<Unit filename="MachineLearningExperiments.cpp" />
 		<Unit filename="README" />
-		<Unit filename="ShellcodeFeatures.cpp" />
-		<Unit filename="ShellcodeFeatures.h" />
+		<Unit filename="ShellcodeDataItem.h" />
 		<Unit filename="Util.cpp" />
 		<Unit filename="Util.h" />
 		<Extensions>
