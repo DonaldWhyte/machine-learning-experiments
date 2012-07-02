@@ -1,26 +1,18 @@
 #ifndef BYTE_FREQUENCY_TABLE_H
 #define BYTE_FREQUENCY_TABLE_H
 
-#include "Util.h"
+#include "FrequencyTable.h"
+
+typedef FrequencyTable<double, 256> RelativeByteFrequencyTable;
 
 /* TODO: comment
  * TODO: TEST */
-class ByteFrequencyTable
+class ByteFrequencyTable : public FrequencyTable<unsigned int, 256>
 {
 
 public:
-    ByteFrequencyTable();
-
-    /* The rule of three is implemented here. */
-    virtual ~ByteFrequencyTable();
-    ByteFrequencyTable(const ByteFrequencyTable& other);
-    ByteFrequencyTable& operator= (const ByteFrequencyTable& other);
-
-    unsigned int& operator[] (const Byte byte); // for write access
-    unsigned int operator[] (const Byte byte) const; // for read-only access
-
-private:
-    unsigned int* frequencies;
+    /* Returns a table containing the RELATIVE frequency of each byte. */
+    RelativeByteFrequencyTable RelativeFrequencies() const;
 
 };
 
